@@ -1,0 +1,38 @@
+header {
+    height: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+}
+
+header .container {
+    position: relative
+}
+
+.navbar {
+    position: fixed;
+    left: 250px;
+    top: 20px;
+    z-index: 9999;
+}
+
+.navbar-header {
+    float: none;
+}
+
+.navbar ul {
+    display: block;
+}
+
+.navbar-nav li a {
+    color: #fff;
+}
+
+.navbar-nav li.selected {
+    padding: 15px;
+    line-height: 20px;
+    background: #00993e;
+    color: #fff;
+}
